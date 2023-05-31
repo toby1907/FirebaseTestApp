@@ -1,4 +1,4 @@
-package com.example.firebasetestapp.ui.components
+package com.example.firebasetestapp.components
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.ui.Alignment

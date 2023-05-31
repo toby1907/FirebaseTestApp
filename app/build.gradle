@@ -50,6 +50,7 @@ android {
 
 dependencies {
     implementation "com.google.accompanist:accompanist-permissions:0.30.1"
+    implementation 'com.google.firebase:firebase-firestore-ktx:24.6.0'
 
     def core_version = "1.6.0"
     implementation "androidx.core:core:$core_version"
