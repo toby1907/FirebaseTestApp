@@ -1,4 +1,4 @@
-package com.example.firebasetestapp.model
+package com.example.firebasetestapp.service
 
 import com.google.firebase.firestore.DocumentId
 

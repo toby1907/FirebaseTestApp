@@ -1,6 +1,6 @@
 package com.example.firebasetestapp.components
 
-import com.example.firebasetestapp.model.Task
+import com.example.firebasetestapp.service.Task
 
 fun Task?.hasDueDate(): Boolean {
     return this?.dueDate.orEmpty().isNotBlank()
