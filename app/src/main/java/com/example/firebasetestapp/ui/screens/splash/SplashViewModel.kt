@@ -1,7 +1,13 @@
 package com.example.firebasetestapp.ui.screens.splash
 
+import androidx.compose.runtime.mutableStateOf
 import com.example.firebasetestapp.FirebasetestAppViewModel
 import com.example.firebasetestapp.service.AccountService
+import com.example.firebasetestapp.service.ConfigurationService
+import com.example.firebasetestapp.service.LogService
+import com.example.firebasetestapp.ui.screens.SPLASH_SCREEN
+import com.example.firebasetestapp.ui.screens.TASKS_SCREEN
+import com.google.firebase.auth.FirebaseAuthException
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 
