@@ -1,13 +1,11 @@
 package com.example.firebasetestapp.ui.screens.login
 
-import androidx.compose.material3.Snackbar
 import androidx.compose.runtime.mutableStateOf
 import com.example.firebasetestapp.FirebasetestAppViewModel
 import com.example.firebasetestapp.R
 import com.example.firebasetestapp.components.isValidEmail
 import com.example.firebasetestapp.components.snackbar.SnackbarManager
 import com.example.firebasetestapp.service.AccountService
-import com.example.firebasetestapp.service.LogService
 import com.example.firebasetestapp.ui.screens.LOGIN_SCREEN
 import com.example.firebasetestapp.ui.screens.SETTINGS_SCREEN
 import dagger.hilt.android.lifecycle.HiltViewModel

@@ -11,11 +11,12 @@ enum class Priority{
             values().forEach { priority -> if (name ==priority.name) return priority }
             return None
         }
+        fun getOptions(): List<String>{
+            val options = mutableListOf<String>()
+            values().forEach { priority -> options.add(priority.name) }
+            return options
+        }
 
     }
-    fun getOptions(): List<String>{
-        val options = mutableListOf<String>()
-        values().forEach { priority -> options.add(priority.name) }
-    return options
-    }
+
 }

@@ -1,6 +1,6 @@
 package com.example.firebasetestapp.service
 
-interface ConfigutationService{
+interface ConfigurationService{
     suspend fun fetchConfiguration(): Boolean
     val isShowTaskEditButtonConfig: Boolean
 }

@@ -4,7 +4,6 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.firebasetestapp.components.snackbar.SnackbarManager
 import com.example.firebasetestapp.components.snackbar.SnackbarMessage.Companion.toSnackbarMessage
-import com.example.firebasetestapp.service.LogService
 import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
